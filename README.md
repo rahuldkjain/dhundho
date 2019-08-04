@@ -14,6 +14,10 @@ $ flask run
 
 ## Search Backend
 
+Open Project in Intelli J and Run it
+
+localhost:8080/search/suggestion?query=<query> link to search
+
 
 # Dhundho Frontend
 ```
