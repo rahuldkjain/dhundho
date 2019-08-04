@@ -237,6 +237,7 @@ public class SearchServiceImpl implements SearchService {
         BoolQueryBuilder query = QueryBuilders.boolQuery();
         for (String i : items) {
             System.out.println(i);
+            //if()
             res = mongoRepository.findByVal(i);
             for (String t : res) {
                 query.should(QueryBuilders.termQuery(t, i));
